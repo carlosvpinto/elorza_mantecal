@@ -20,6 +20,8 @@ function initMap() {
 document.addEventListener("DOMContentLoaded", () => {
     const photoGallery = document.querySelector(".photo-gallery");
     const videoGallery = document.querySelector(".video-gallery");
+    const maintenanceGallery = document.querySelector(".maintenance-gallery");
+   
 
     // Añade aquí tus 19 fotos con descripciones
     const photos = [
@@ -43,8 +45,40 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/torre18.jpeg", description: "Limpieza Torre 18" },
         { src: "imagenes/torre19.jpeg", description: "Limpieza Torre 19" },
         { src: "imagenes/torre20.jpeg", description: "Limpieza Torre 20" },
-        { src: "imagenes/torre21.jpeg", description: "Limpieza Torre 21" }
+        { src: "imagenes/torre21.jpeg", description: "Limpieza Torre 21" },
+        { src: "imagenes/tramo2-3.jpeg", description: "Tramo Limpiado 2-3" },
+        { src: "imagenes/tramo4-7.jpeg", description: "Tramo limpiado 4-7" },
+        { src: "imagenes/tramo20-21.jpeg", description: "Trabajando Tramo 20-21" }
     ];
+
+ // Añade aquí tus fotos de tramos en mantenimiento
+ const maintenancePhotos = [
+    { src: "imagenes/trabajando_torre10.jpeg", description: "Trabajando Torre 10" },
+    { src: "imagenes/tramo 1-2.jpeg", description: "Mantenimiento Tramo 1-2" },
+    { src: "imagenes/tramo2-3.jpeg", description: "Mantenimiento Tramo 2-3" },
+    { src: "imagenes/tramo4-7.jpeg", description: "Mantenimiento Tramo 4-7" },
+    { src: "imagenes/tramo5-6.jpeg", description: "Tramo 5-6 antes del Mantenimiento" },
+    { src: "imagenes/tramo8-10.jpeg", description: "Tramo 8-10 antes del Mantenimiento" },
+    { src: "imagenes/tramo10-11_problema.jpeg", description: "Tramo10-11 problema Mantenimiento" },
+    { src: "imagenes/tramo11-12.jpeg", description: "Tramo 11-12 Antes del Mantenimiento" },
+    { src: "imagenes/tramo12-13.jpeg", description: "Tramo 12-13 Antes del Mantenimiento" },
+    { src: "imagenes/tramo14-15.jpeg", description: "Tramo 14-15 Antes del Mantenimiento" },
+    { src: "imagenes/tramo20-21.jpeg", description: "Tramo 20-21" },
+    // Añade más fotos de tramos en mantenimiento según sea necesario
+];
+
+maintenancePhotos.forEach(photo => {
+    const maintenanceItem = document.createElement("div");
+    maintenanceItem.classList.add("maintenance-item");
+    const img = document.createElement("img");
+    img.src = photo.src;
+    const desc = document.createElement("p");
+    desc.textContent = photo.description;
+    maintenanceItem.appendChild(img);
+    maintenanceItem.appendChild(desc);
+    maintenanceGallery.appendChild(maintenanceItem);
+});
+    
 
     photos.forEach(photo => {
         const photoItem = document.createElement("div");
@@ -60,10 +94,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Añade aquí tus videos con descripciones
     const videos = [
-        { src: "videos/torre97cerca.mp4", description: "Descripción del video 1" },
-        { src: "videos/torre97-98.mp4", description: "Descripción del video 2" },
-        { src: "videos/torre61-2.mp4", description: "Descripción torre61-2" },
-        { src: "videos/torre23-22.mp4", description: "Descripción del torre23-22" },
+        { src: "videos/torre97cerca.mp4", description: "Torre 97 fuera del Cronograma" },
+        { src: "videos/torre97-98.mp4", description: "Tramo 97-98 Fuera del Cronograma" },
+        { src: "videos/torre61-2.mp4", description: "Torre 61 Fuera del Cronograma" },
+        { src: "videos/torre23-22.mp4", description: "Torre 23-22 Antes del Manteniento" },
         // Añade más videos según sea necesario
     ];
 

@@ -51,25 +51,25 @@ h1, h2 {
     margin-bottom: 2rem;
 }
 
-.photo-gallery, .video-gallery {
+.photo-gallery, .maintenance-gallery, .video-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta el tamaño mínimo según sea necesario */
     gap: 1rem;
 }
 
-.photo-gallery .photo-item, .video-gallery .video-item {
+.photo-gallery .photo-item, .maintenance-gallery .maintenance-item, .video-gallery .video-item {
     border: 1px solid #ccc;
     padding: 1rem;
     background-color: #f9f9f9;
     text-align: center;
 }
 
-.photo-gallery img, .video-gallery video {
-    max-width: 100%;
-    height: auto;
+.photo-gallery img, .maintenance-gallery img {
+    width: 100%;
+    height: 300px; /* Tamaño ajustado para que todas las fotos sean grandes */
+    object-fit: cover;
     margin-bottom: 0.5rem;
 }
-
 .video-gallery video {
     width: 100%;
 }
