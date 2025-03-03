@@ -5,7 +5,18 @@ body {
     box-sizing: border-box;
 }
 
-header, footer {
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    color: white; /* Asegúrate de que el color sea blanco */
+}
+
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -17,7 +28,6 @@ main {
 }
 
 h1, h2 {
-    color: #333;
     text-align: center;
 }
 
@@ -74,7 +84,7 @@ h1, h2 {
 .red-text {
     color: red;
 }
+
 .video-gallery video {
     width: 100%;
 }
-
