@@ -42,7 +42,7 @@ h1, h2 {
 
 .progress-details p {
     margin: 0.5rem 0;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 #map {
@@ -69,6 +69,10 @@ h1, h2 {
     height: 300px; /* Tamaño ajustado para que todas las fotos sean grandes */
     object-fit: cover;
     margin-bottom: 0.5rem;
+}
+
+.red-text {
+    color: red;
 }
 .video-gallery video {
     width: 100%;

@@ -44,15 +44,16 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/torre17.jpeg", description: "Limpieza Torre 17" },
         { src: "imagenes/torre18.jpeg", description: "Limpieza Torre 18" },
         { src: "imagenes/torre19.jpeg", description: "Limpieza Torre 19" },
-        { src: "imagenes/torre20.jpeg", description: "Limpieza Torre 20" },
+        { src: "imagenes/torre20.jpeg", description: "Limpieza Torre 20 Negado el Acceso" },
         { src: "imagenes/torre21.jpeg", description: "Limpieza Torre 21" },
-        { src: "imagenes/tramo2-3.jpeg", description: "Tramo Limpiado 2-3" },
-        { src: "imagenes/tramo4-7.jpeg", description: "Tramo limpiado 4-7" },
+      
         { src: "imagenes/tramo20-21.jpeg", description: "Trabajando Tramo 20-21" }
     ];
 
  // Añade aquí tus fotos de tramos en mantenimiento
  const maintenancePhotos = [
+    { src: "imagenes/tramo2-3.jpeg", description: "Tramo Limpiado 2-3" },
+    { src: "imagenes/tramo4-7.jpeg", description: "Tramo limpiado 4-7" },
     { src: "imagenes/trabajando_torre10.jpeg", description: "Trabajando Torre 10" },
     { src: "imagenes/tramo 1-2.jpeg", description: "Mantenimiento Tramo 1-2" },
     { src: "imagenes/tramo2-3.jpeg", description: "Mantenimiento Tramo 2-3" },
@@ -63,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { src: "imagenes/tramo11-12.jpeg", description: "Tramo 11-12 Antes del Mantenimiento" },
     { src: "imagenes/tramo12-13.jpeg", description: "Tramo 12-13 Antes del Mantenimiento" },
     { src: "imagenes/tramo14-15.jpeg", description: "Tramo 14-15 Antes del Mantenimiento" },
-    { src: "imagenes/tramo20-21.jpeg", description: "Tramo 20-21" },
+    { src: "imagenes/tramo20-21.jpeg", description: "Tramo 20-21 " },
     // Añade más fotos de tramos en mantenimiento según sea necesario
 ];
 
@@ -74,23 +75,29 @@ maintenancePhotos.forEach(photo => {
     img.src = photo.src;
     const desc = document.createElement("p");
     desc.textContent = photo.description;
+    if (photo.src === "imagenes/tramo10-11_problema.jpeg") {
+        desc.classList.add("red-text"); // Añadir clase para descripción en rojo
+    }
     maintenanceItem.appendChild(img);
     maintenanceItem.appendChild(desc);
     maintenanceGallery.appendChild(maintenanceItem);
 });
     
 
-    photos.forEach(photo => {
-        const photoItem = document.createElement("div");
-        photoItem.classList.add("photo-item");
-        const img = document.createElement("img");
-        img.src = photo.src;
-        const desc = document.createElement("p");
-        desc.textContent = photo.description;
-        photoItem.appendChild(img);
-        photoItem.appendChild(desc);
-        photoGallery.appendChild(photoItem);
-    });
+photos.forEach(photo => {
+    const photoItem = document.createElement("div");
+    photoItem.classList.add("photo-item");
+    const img = document.createElement("img");
+    img.src = photo.src;
+    const desc = document.createElement("p");
+    desc.textContent = photo.description;
+    if (photo.src === "imagenes/torre20.jpeg") {
+        desc.classList.add("red-text"); // Añadir clase para descripción en rojo
+    }
+    photoItem.appendChild(img);
+    photoItem.appendChild(desc);
+    photoGallery.appendChild(photoItem);
+});
 
     // Añade aquí tus videos con descripciones
     const videos = [
