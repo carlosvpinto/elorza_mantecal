@@ -14,6 +14,11 @@ header {
 
 header h1 {
     color: white; /* Asegúrate de que el color sea blanco */
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+header h1:hover {
+    color: #ffcc00; /* Color de hover */
 }
 
 footer {
@@ -37,8 +42,30 @@ h1, h2 {
 }
 
 .image-container img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    transition: transform 0.3s ease; /* Transición suave para el tamaño */
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Zoom al pasar el cursor */
+}
+
+/* Transiciones suaves */
+header, footer, h1, h2, .progress-details, .photo-gallery .photo-item, .maintenance-gallery .maintenance-item, .video-gallery .video-item {
+    transition: all 0.3s ease;
+}
+
+/* Efectos hover */
+button:hover, a:hover {
+    background-color: #555;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Sombra en el texto */
+h1, h2, .progress-details p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .progress-details {
@@ -48,6 +75,11 @@ h1, h2 {
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+}
+
+.progress-details:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más intensa al pasar el cursor */
 }
 
 .progress-details p {
@@ -61,10 +93,12 @@ h1, h2 {
     margin-bottom: 2rem;
 }
 
+/* Animaciones */
 .photo-gallery, .maintenance-gallery, .video-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta el tamaño mínimo según sea necesario */
     gap: 1rem;
+    transition: all 0.3s ease; /* Transición suave */
 }
 
 .photo-gallery .photo-item, .maintenance-gallery .maintenance-item, .video-gallery .video-item {
@@ -72,12 +106,18 @@ h1, h2 {
     padding: 1rem;
     background-color: #f9f9f9;
     text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el tamaño y la sombra */
+}
+
+.photo-gallery .photo-item:hover, .maintenance-gallery .maintenance-item:hover, .video-gallery .video-item:hover {
+    transform: scale(1.05); /* Zoom al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más intensa al pasar el cursor */
 }
 
 .photo-gallery img, .maintenance-gallery img {
     width: 100%;
-    height: 300px; /* Tamaño ajustado para que todas las fotos sean grandes */
-    object-fit: cover;
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
     margin-bottom: 0.5rem;
 }
 
@@ -87,4 +127,14 @@ h1, h2 {
 
 .video-gallery video {
     width: 100%;
+}
+
+/* Keyframes para la animación de fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
