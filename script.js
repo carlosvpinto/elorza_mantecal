@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
        // { src: "imagenes/elorza/torre32.jpeg", description: "Limpieza Torre 32" },
        // { src: "imagenes/elorza/torre33.jpeg", description: "Limpieza Torre 33" },
        // { src: "imagenes/elorza/torre34.jpeg", description: "Limpieza Torre 34" },
+       
         { src: "imagenes/elorza/torre35.jpeg", description: "Limpieza Torre 35" },
       
         { src: "imagenes/elorza/tramo20-21.jpeg", description: "Trabajando Tramo 20-21" }
