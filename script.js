@@ -165,6 +165,6 @@ photos.forEach(photo => {
 
 // Añade tu API Key de Google Maps aquí
 const script = document.createElement('script');
-script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDPBPt2gRYTn43C16J9o_bdda7R6AT6xVA&callback=initMap`;
+script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBQZFIlnOkDX9Rj8fu8_HdB7BRBkYIQvxccallback=initMap`;
 script.async = true;
 document.head.appendChild(script);
