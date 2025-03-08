@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { src: "imagenes/elorza/tramo20-21.jpeg", description: "Tramo 20-21 " },
     { src: "imagenes/elorza/tramo20-21-2.jpeg", description: "Tramo 20-21 Antes del Mantenimiento " },
     { src: "imagenes/elorza/tramo21-22.jpeg", description: "Tramo 21-22 Antes del Mantenimiento " },
+    { src: "imagenes/elorza/tramo21-22despues.jpeg", description: "Tramo 21-22 Despues del Mantenimiento" },
     
     { src: "imagenes/elorza/tramo58-57.jpeg", description: "Tramo 58-57 Fuera del Cronograma" },
     { src: "imagenes/elorza/tramo62-61.jpeg", description: "Tramo 62-61 Fuera del Cronograma" },
