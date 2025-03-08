@@ -53,16 +53,17 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/elorza/torre25.jpeg", description: "Limpieza Torre 25" },
         { src: "imagenes/elorza/torre26.jpeg", description: "Limpieza Torre 26" },
         { src: "imagenes/elorza/torre27.jpeg", description: "Limpieza Torre 27" },
-        { src: "imagenes/elorza/torre28.jpeg", description: "Limpieza Torre 28" },
         { src: "imagenes/elorza/torre28-antes.jpeg", description: "Limpieza Torre 28 Antes de Limpieza" },
-        { src: "imagenes/elorza/torre29.jpeg", description: "Limpieza Torre 29" },
+        { src: "imagenes/elorza/torre28.jpeg", description: "Limpieza Torre 28" },
         { src: "imagenes/elorza/torre29-antes.jpeg", description: "Limpieza Torre 29 Antes de Limpieza" },
+        { src: "imagenes/elorza/torre29.jpeg", description: "Limpieza Torre 29" },
+      
        // { src: "imagenes/elorza/torre30.jpeg", description: "Limpieza Torre 30" },
        // { src: "imagenes/elorza/torre31.jpeg", description: "Limpieza Torre 31" },
        // { src: "imagenes/elorza/torre32.jpeg", description: "Limpieza Torre 32" },
        // { src: "imagenes/elorza/torre33.jpeg", description: "Limpieza Torre 33" },
        // { src: "imagenes/elorza/torre34.jpeg", description: "Limpieza Torre 34" },
-       
+
         { src: "imagenes/elorza/torre35.jpeg", description: "Limpieza Torre 35" },
       
         { src: "imagenes/elorza/tramo20-21.jpeg", description: "Trabajando Tramo 20-21" }
@@ -77,6 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { src: "imagenes/elorza/tramo2-3.jpeg", description: "Mantenimiento Tramo 2-3" },
     { src: "imagenes/elorza/tramo4-7.jpeg", description: "Mantenimiento Tramo 4-7" },
     { src: "imagenes/elorza/tramo5-6.jpeg", description: "Tramo 5-6 antes del Mantenimiento" },
+    { src: "imagenes/elorza/tramo5-6despues.jpeg", description: "Tramo 5-6 Despues del Mantenimiento" },
     { src: "imagenes/elorza/tramo8-10.jpeg", description: "Tramo 8-10 antes del Mantenimiento" },
     { src: "imagenes/elorza/tramo10-11_problema.jpeg", description: "Tramo10-11 problema Mantenimiento" },
     { src: "imagenes/elorza/tramo11-12.jpeg", description: "Tramo 11-12 Antes del Mantenimiento" },
