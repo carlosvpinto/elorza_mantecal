@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/torre2.jpeg", description: "Limpieza Torre 2" },
         { src: "imagenes/torre3.jpeg", description: "Limpieza Torre 3" },
         { src: "imagenes/torre4.jpeg", description: "Limpieza Torre 4" },
+        { src: "imagenes/torre4limpiando.jpeg", description: "Limpieza Torre 4 Antes" },
         { src: "imagenes/torre5.jpeg", description: "Limpieza Torre 5" },
         { src: "imagenes/torre6.jpeg", description: "Limpieza Torre 6" },
         { src: "imagenes/torre7.jpeg", description: "Limpieza Torre 7" },
@@ -46,6 +47,22 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/torre19.jpeg", description: "Limpieza Torre 19" },
         { src: "imagenes/torre20.jpeg", description: "Limpieza Torre 20 Negado el Acceso" },
         { src: "imagenes/torre21.jpeg", description: "Limpieza Torre 21" },
+        { src: "imagenes/torre22.jpeg", description: "Limpieza Torre 22" },
+        { src: "imagenes/torre23.jpeg", description: "Limpieza Torre 23" },
+        { src: "imagenes/torre24.jpeg", description: "Limpieza Torre 24" },
+        { src: "imagenes/torre25.jpeg", description: "Limpieza Torre 25" },
+        { src: "imagenes/torre26.jpeg", description: "Limpieza Torre 26" },
+        { src: "imagenes/torre27.jpeg", description: "Limpieza Torre 27" },
+        { src: "imagenes/torre28.jpeg", description: "Limpieza Torre 28" },
+        { src: "imagenes/torre28-antes.jpeg", description: "Limpieza Torre 28 Antes de Limpieza" },
+        { src: "imagenes/torre29.jpeg", description: "Limpieza Torre 29" },
+        { src: "imagenes/torre29-antes.jpeg", description: "Limpieza Torre 29 Antes de Limpieza" },
+        { src: "imagenes/torre30.jpeg", description: "Limpieza Torre 30" },
+        { src: "imagenes/torre31.jpeg", description: "Limpieza Torre 31" },
+        { src: "imagenes/torre32.jpeg", description: "Limpieza Torre 32" },
+        { src: "imagenes/torre33.jpeg", description: "Limpieza Torre 33" },
+        { src: "imagenes/torre34.jpeg", description: "Limpieza Torre 34" },
+        { src: "imagenes/torre35.jpeg", description: "Limpieza Torre 35" },
       
         { src: "imagenes/tramo20-21.jpeg", description: "Trabajando Tramo 20-21" }
     ];
@@ -63,8 +80,17 @@ document.addEventListener("DOMContentLoaded", () => {
     { src: "imagenes/tramo10-11_problema.jpeg", description: "Tramo10-11 problema Mantenimiento" },
     { src: "imagenes/tramo11-12.jpeg", description: "Tramo 11-12 Antes del Mantenimiento" },
     { src: "imagenes/tramo12-13.jpeg", description: "Tramo 12-13 Antes del Mantenimiento" },
-    { src: "imagenes/tramo14-15.jpeg", description: "Tramo 14-15 Antes del Mantenimiento" },
+    { src: "imagenes/tramo14-15-1.jpeg", description: "Tramo 14-15 Antes del Mantenimiento" },
     { src: "imagenes/tramo20-21.jpeg", description: "Tramo 20-21 " },
+    { src: "imagenes/tramo20-21-2.jpeg", description: "Tramo 20-21 Antes del Mantenimiento " },
+    { src: "imagenes/tramo21-22.jpeg", description: "Tramo 21-22 Antes del Mantenimiento " },
+    
+    { src: "imagenes/tramo58-57.jpeg", description: "Tramo 58-57 Fuera del Cronograma" },
+    { src: "imagenes/tramo62-61.jpeg", description: "Tramo 62-61 Fuera del Cronograma" },
+
+
+
+
     // Añade más fotos de tramos en mantenimiento según sea necesario
 ];
 
@@ -103,8 +129,23 @@ photos.forEach(photo => {
     const videos = [
         { src: "videos/torre97cerca.mp4", description: "Torre 97 fuera del Cronograma" },
         { src: "videos/torre97-98.mp4", description: "Tramo 97-98 Fuera del Cronograma" },
-        { src: "videos/torre61-2.mp4", description: "Torre 61 Fuera del Cronograma" },
+        { src: "videos/torre61.mp4", description: "Torre 61 Fuera del Cronograma" },
         { src: "videos/torre23-22.mp4", description: "Torre 23-22 Antes del Manteniento" },
+        { src: "videos/tramo58-59.mp4", description: "tramo58-59" },
+        { src: "videos/tramo58-59.mp4", description: "tramo58-59" },
+        { src: "videos/torre60-61.mp4", description: "tramo  60-61 Fuera del Cronograma" },
+        { src: "videos/torre60-antes.mp4", description: "Torre 60 Fuera del Cronograma" },
+        { src: "videos/torre61.mp4", description: "Torre 61 Fuera del Cronograma" },
+        { src: "videos/torre63.mp4", description: "Torre 63 Fuera del Cronograma" },
+        { src: "videos/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma" },
+        { src: "videos/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma" },
+        { src: "videos/tramo58-57.mp4", description: "Torre 58-57 Fuera del Cronograma" },
+        { src: "videos/tramo58-59.mp4", description: "Torre 53-52 Fuera del Cronograma" },
+        { src: "videos/tramo62-61.mp4", description: "Torre 62-61 Fuera del Cronograma" },
+        { src: "videos/tramo62-63.mp4", description: "Torre 62-63 Fuera del Cronograma" },
+        { src: "videos/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma" },
+        
+       
         // Añade más videos según sea necesario
     ];
 
