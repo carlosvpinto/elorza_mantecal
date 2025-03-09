@@ -219,6 +219,47 @@ h1, h2 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+#fullscreen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+}
+
+#fullscreen-container.hidden {
+    display: none;
+}
+
+#fullscreen-container img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 5px;
+}
+
+#close-fullscreen {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+#close-fullscreen:hover {
+    transform: scale(1.2);
+}
+
+
 footer {
     background-color: #333;
     color: #fff;

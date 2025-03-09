@@ -9,6 +9,21 @@ document.addEventListener("DOMContentLoaded", () => {
     const videoGallery = document.querySelector(".video-gallery");
     const videoTitle = document.querySelector(".video-title"); // Título dinámico para videos
 
+    const fullscreenContainer = document.createElement("div");
+    fullscreenContainer.id = "fullscreen-container";
+    fullscreenContainer.classList.add("hidden");
+    document.body.appendChild(fullscreenContainer);
+
+    const closeFullscreen = document.createElement("span");
+    closeFullscreen.id = "close-fullscreen";
+    closeFullscreen.textContent = "×";
+    fullscreenContainer.appendChild(closeFullscreen);
+
+    const fullscreenImg = document.createElement("img");
+    fullscreenImg.id = "fullscreen-img";
+    fullscreenContainer.appendChild(fullscreenImg);
+    
+
     // Fotos generales organizadas por semana
    
           const photos = [
@@ -171,6 +186,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 videoItem.appendChild(vid);
                 videoItem.appendChild(desc);
                 videoGallery.appendChild(videoItem);
+
+              
             });
         }
     };
@@ -197,6 +214,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 photoItem.appendChild(img);
                 photoItem.appendChild(desc);
                 photoGallery.appendChild(photoItem);
+
+                   // Agregar evento de clic para pantalla completa
+                   img.addEventListener("click", () => {
+                    fullscreenImg.src = img.src;
+                    fullscreenImg.alt = img.alt;
+                    fullscreenContainer.classList.remove("hidden");
+                });
             });
         }
     };
@@ -223,6 +247,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 maintenanceItem.appendChild(img);
                 maintenanceItem.appendChild(desc);
                 maintenanceGallery.appendChild(maintenanceItem);
+
+                   // Agregar evento de clic para pantalla completa
+                   img.addEventListener("click", () => {
+                    fullscreenImg.src = img.src;
+                    fullscreenImg.alt = img.alt;
+                    fullscreenContainer.classList.remove("hidden");
+                });
             });
         }
     };
@@ -239,17 +270,28 @@ document.addEventListener("DOMContentLoaded", () => {
         const week = e.target.getAttribute("data-week");
         updateTitles(week);
         renderPhotos(week);
-        renderMaintenancePhotos(week);
-        renderVideos(week); // Renderizar los videos según la semana
+        renderVideos(week);
     };
 
-    // Agregar eventos de clic a los botones de filtro
+    // Inicializar
     const addFilterEventListeners = () => {
         const filterButtons = document.querySelectorAll(".filters button");
         filterButtons.forEach(button => {
             button.addEventListener("click", handleFilterClick);
         });
     };
+
+    closeFullscreen.addEventListener("click", () => {
+        fullscreenContainer.classList.add("hidden");
+        fullscreenImg.src = "";
+    });
+
+    fullscreenContainer.addEventListener("click", (e) => {
+        if (e.target === fullscreenContainer) {
+            fullscreenContainer.classList.add("hidden");
+            fullscreenImg.src = "";
+        }
+    });
 
     // Inicializar la funcionalidad
     createFilterButtons();
