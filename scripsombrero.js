@@ -161,6 +161,6 @@ const videos = [
     createFilterButtons();
     updateTitles("all");
     renderPhotos("all");
-    renderVideos("all");
+   // renderVideos("all");
     addFilterEventListeners();
 });
