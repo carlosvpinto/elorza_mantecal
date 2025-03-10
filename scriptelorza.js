@@ -82,7 +82,11 @@ document.addEventListener("DOMContentLoaded", () => {
             { src: "imagenes/elorza/torre40.jpeg", description: "Limpieza Torre 40" , week: 3},
             { src: "imagenes/elorza/torre41-antes.jpeg", description: "Torre 41 Antes de Limpieza" , week: 3},
             { src: "imagenes/elorza/torre41.jpeg", description: "Limpieza Torre 41" , week: 3},
-            { src: "imagenes/elorza/tramo20-21.jpeg", description: "Trabajando Tramo 20-21" , week: 3}
+            { src: "imagenes/elorza/torre42-antes.jpeg", description: "Torre 42 Antes limpieza" , week: 3},
+            { src: "imagenes/elorza/torre42.jpeg", description: "Limpieza Torre 42" , week: 3},
+            { src: "imagenes/elorza/torre43-antes.jpeg", description: "Torre 43 Antes de la Limpieza" , week: 3},
+            { src: "imagenes/elorza/torre43.jpeg", description: "Limpieza Torre 43" , week: 3},
+          
         ];
     
 
@@ -92,7 +96,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const maintenancePhotos = [
         { src: "imagenes/elorza/tramo2-3.jpeg", description: "Tramo Limpiado 2-3", week: 1 },
+        { src: "imagenes/elorza/tramo20-21.jpeg", description: "Trabajando Antes Tramo 4-7" , week: 1},
         { src: "imagenes/elorza/tramo4-7.jpeg", description: "Tramo limpiado 4-7", week: 1 },
+
         { src: "imagenes/elorza/trabajando_torre10.jpeg", description: "Trabajando Torre 10", week: 1 },
         { src: "imagenes/elorza/tramo 1-2.jpeg", description: "Mantenimiento Tramo 1-2", week: 1 },
         { src: "imagenes/elorza/tramo2-3.jpeg", description: "Mantenimiento Tramo 2-3", week: 1 },
