@@ -135,7 +135,7 @@ const videos = [
         const week = e.target.getAttribute("data-week");
         updateTitles(week);
         renderPhotos(week);
-        renderVideos(week);
+       // renderVideos(week);
     };
 
     // Inicializar
