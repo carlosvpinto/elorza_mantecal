@@ -28,7 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
     { src: "imagenes/sombrero/trabajotorre264-265.jpeg", description: "Antes de Limpieza Torre 264", week: 1 },
     { src: "imagenes/sombrero/trabajotorre264-265-0.jpeg", description: "Inicio de Limpieza Torre 264-265", week: 1 },
     { src: "imagenes/sombrero/trabajotorre264-265-2.jpeg", description: "Inicio Torre 264", week: 1 },
-    { src: "imagenes/sombrero/tramo264-265.jpeg", description: "Culminado Limpieza Torre 1", week: 1 },
+    { src: "imagenes/sombrero/tramo264-265.jpeg", description: "Culminado Limpieza Torre 264-265", week: 2 },
+    { src: "imagenes/sombrero/tramo264-265-1.jpeg", description: "Culminado Limpieza Torre 264-265", week: 2 },
+    { src: "imagenes/sombrero/d4tapa.jpeg", description: "D4 Trabajando", week: 2 },
+    { src: "imagenes/sombrero/torre264-265.jpeg", description: "Culminado Limpieza Torre 265-266", week: 2 },
+    { src: "imagenes/sombrero/torre264-265-1.jpeg", description: "Culminado Limpieza Torre 265-266", week: 2 },
+    
+    { src: "imagenes/sombrero/torresmaquinas.jpeg", description: "Maquinaria en zona de trabajo", week: 2 },
 
 ];
 
@@ -40,9 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Añade aquí tus videos con descripciones
 const videos = [
-{ src: "videos/torre97cerca.mp4", description: "Torre 97 fuera del Cronograma" , week: 1},
-{ src: "videos/torre97-98.mp4", description: "Tramo 97-98 Fuera del Cronograma", week: 1 },
-{ src: "videos/torre61.mp4", description: "Torre 61 Fuera del Cronograma" , week: 1},
+{ src: "videos/sombrero/torre265.mp4", description: "Cerca de Torre 265" , week: 1},
+{ src: "videos/sombrero/tramo264-265.mp4", description: "Trabajo Tramo 264-265", week: 2 },
+{ src: "videos/sombrero/torre265.mp4", description:"Trabajo Tramo 264-265", week: 2 },
+{ src: "videos/sombrero/maquinas.mp4", description: "trabajando Maquinas 264-265", week: 2 },
+
+
+
 
 // Añade más videos según sea necesario
 ];
@@ -135,7 +145,7 @@ const videos = [
         const week = e.target.getAttribute("data-week");
         updateTitles(week);
         renderPhotos(week);
-       // renderVideos(week);
+        renderVideos(week);
     };
 
     // Inicializar
@@ -161,6 +171,6 @@ const videos = [
     createFilterButtons();
     updateTitles("all");
     renderPhotos("all");
-   // renderVideos("all");
+    renderVideos("all");
     addFilterEventListeners();
 });
