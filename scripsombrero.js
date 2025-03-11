@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { src: "imagenes/sombrero/trabajotorre264-265-0.jpeg", description: "Inicio de Limpieza Torre 264-265", week: 1 },
     { src: "imagenes/sombrero/trabajotorre264-265-2.jpeg", description: "Inicio Torre 264", week: 1 },
     { src: "imagenes/sombrero/tramo264-265.jpeg", description: "Culminado Limpieza Torre 264-265", week: 2 },
-    { src: "imagenes/sombrero/tramo264-265-1.jpeg", description: "Culminado Limpieza Torre 264-265", week: 2 },
+    
     { src: "imagenes/sombrero/d4tapa.jpeg", description: "D4 Trabajando", week: 2 },
     { src: "imagenes/sombrero/torre264-265.jpeg", description: "Culminado Limpieza Torre 265-266", week: 2 },
     { src: "imagenes/sombrero/torre264-265-1.jpeg", description: "Culminado Limpieza Torre 265-266", week: 2 },
