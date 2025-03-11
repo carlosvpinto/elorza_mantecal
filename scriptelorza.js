@@ -84,8 +84,13 @@ document.addEventListener("DOMContentLoaded", () => {
             { src: "imagenes/elorza/torre41.jpeg", description: "Limpieza Torre 41" , week: 3},
             { src: "imagenes/elorza/torre42-antes.jpeg", description: "Torre 42 Antes limpieza" , week: 3},
             { src: "imagenes/elorza/torre42.jpeg", description: "Limpieza Torre 42" , week: 3},
-            { src: "imagenes/elorza/torre43-antes.jpeg", description: "Torre 43 Antes de la Limpieza" , week: 3},
-            { src: "imagenes/elorza/torre43.jpeg", description: "Limpieza Torre 43" , week: 3},
+            { src: "imagenes/elorza/torre43-antes.jpeg", description: "Torre 43 Antes de la Limpieza" , week: 4},
+            { src: "imagenes/elorza/torre43.jpeg", description: "Torre 43 Antes de la Limpieza" , week: 4},
+            { src: "imagenes/elorza/torre44-antes.jpeg", description: "Antes Torre 44" , week: 4},
+            { src: "imagenes/elorza/torre44.jpeg", description: "Limpieza Torre 44" , week: 4},
+            { src: "imagenes/elorza/torre45-antes.jpeg", description: "Antes Torre 45" , week: 4},
+            { src: "imagenes/elorza/torre45.jpeg", description: "Limpieza Torre 45" , week: 4},
+            
           
         ];
     
@@ -118,6 +123,9 @@ document.addEventListener("DOMContentLoaded", () => {
         
         { src: "imagenes/elorza/tramo58-57.jpeg", description: "Tramo 58-57 Fuera del Cronograma", week: 3 },
         { src: "imagenes/elorza/tramo62-61.jpeg", description: "Tramo 62-61 Fuera del Cronograma" , week: 3},
+        { src: "imagenes/elorza/tramo45-46-antes.jpeg", description: "Tramo 45-46 Antes del Manteniento" , week: 4},
+        { src: "imagenes/elorza/tramo45-46.jpeg", description: "Tramo 45-46 Durante el mantenimiento" , week: 4},
+        
     
     
     
@@ -128,23 +136,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
        // Añade aquí tus videos con descripciones
        const videos = [
-        { src: "videos/torre97cerca.mp4", description: "Torre 97 fuera del Cronograma" , week: 1},
-        { src: "videos/torre97-98.mp4", description: "Tramo 97-98 Fuera del Cronograma", week: 1 },
-        { src: "videos/torre61.mp4", description: "Torre 61 Fuera del Cronograma" , week: 1},
-        { src: "videos/torre23-22.mp4", description: "Torre 23-22 Antes del Manteniento", week: 1 },
-        { src: "videos/tramo58-59.mp4", description: "tramo58-59", week: 1 },
-        { src: "videos/tramo58-59.mp4", description: "tramo58-59", week: 1 },
-        { src: "videos/torre60-61.mp4", description: "tramo  60-61 Fuera del Cronograma", week: 1 },
-        { src: "videos/torre60-antes.mp4", description: "Torre 60 Fuera del Cronograma", week: 1 },
-        { src: "videos/torre61.mp4", description: "Torre 61 Fuera del Cronograma", week: 1 },
-        { src: "videos/torre63.mp4", description: "Torre 63 Fuera del Cronograma", week: 1 },
-        { src: "videos/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma" , week: 1},
-        { src: "videos/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma", week: 1 },
-        { src: "videos/tramo58-57.mp4", description: "Torre 58-57 Fuera del Cronograma", week: 1 },
-        { src: "videos/tramo58-59.mp4", description: "Torre 53-52 Fuera del Cronograma", week: 1 },
-        { src: "videos/tramo62-61.mp4", description: "Torre 62-61 Fuera del Cronograma", week: 3 },
-        { src: "videos/tramo62-63.mp4", description: "Torre 62-63 Fuera del Cronograma", week: 2 },
-        { src: "videos/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma" , week: 2},
+        { src: "videos/elorza/torre97cerca.mp4", description: "Torre 97 fuera del Cronograma" , week: 1},
+        { src: "videos/elorza/torre97-98.mp4", description: "Tramo 97-98 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/torre61.mp4", description: "Torre 61 Fuera del Cronograma" , week: 1},
+        { src: "videos/elorza/torre23-22.mp4", description: "Torre 23-22 Antes del Manteniento", week: 1 },
+        { src: "videos/elorza/tramo58-59.mp4", description: "tramo58-59", week: 1 },
+        { src: "videos/elorza/tramo58-59.mp4", description: "tramo58-59", week: 1 },
+        { src: "videos/elorza/torre60-61.mp4", description: "tramo  60-61 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/torre61.mp4", description: "Torre 61 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/torre63.mp4", description: "Torre 63 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma" , week: 1},
+        { src: "videos/elorza/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/tramo58-57.mp4", description: "Torre 58-57 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/tramo58-59.mp4", description: "Torre 53-52 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/tramo62-61.mp4", description: "Torre 62-61 Fuera del Cronograma", week: 3 },
+        { src: "videos/elorza/tramo62-63.mp4", description: "Torre 62-63 Fuera del Cronograma", week: 2 },
+        { src: "videos/elorza/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma" , week: 2},
         
        
         // Añade más videos según sea necesario
@@ -232,37 +239,38 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     // Renderizar fotos de mantenimiento
-    const renderMaintenancePhotos = (week) => {
-        maintenanceGallery.innerHTML = ""; // Limpiar galería de mantenimiento
-        const filteredMaintenancePhotos = week === "all" ? maintenancePhotos : maintenancePhotos.filter(photo => photo.week === parseInt(week));
+// Renderizar fotos de mantenimiento
+const renderMaintenancePhotos = (week) => {
+    maintenanceGallery.innerHTML = ""; // Limpiar galería de mantenimiento
+    const filteredMaintenancePhotos = week === "all" ? maintenancePhotos : maintenancePhotos.filter(photo => photo.week === parseInt(week));
 
-        if (filteredMaintenancePhotos.length === 0) {
-            maintenanceGallery.innerHTML = "<p>No hay fotos de mantenimiento para esta semana.</p>";
-        } else {
-            filteredMaintenancePhotos.forEach(photo => {
-                const maintenanceItem = document.createElement("div");
-                maintenanceItem.classList.add("maintenance-item");
+    if (filteredMaintenancePhotos.length === 0) {
+        maintenanceGallery.innerHTML = "<p>No hay fotos de mantenimiento para esta semana.</p>";
+    } else {
+        filteredMaintenancePhotos.forEach(photo => {
+            const maintenanceItem = document.createElement("div");
+            maintenanceItem.classList.add("maintenance-item");
 
-                const img = document.createElement("img");
-                img.src = photo.src;
-                img.alt = photo.description;
+            const img = document.createElement("img");
+            img.src = photo.src;
+            img.alt = photo.description;
 
-                const desc = document.createElement("p");
-                desc.textContent = photo.description;
+            const desc = document.createElement("p");
+            desc.textContent = photo.description;
 
-                maintenanceItem.appendChild(img);
-                maintenanceItem.appendChild(desc);
-                maintenanceGallery.appendChild(maintenanceItem);
+            maintenanceItem.appendChild(img);
+            maintenanceItem.appendChild(desc);
+            maintenanceGallery.appendChild(maintenanceItem);
 
-                   // Agregar evento de clic para pantalla completa
-                   img.addEventListener("click", () => {
-                    fullscreenImg.src = img.src;
-                    fullscreenImg.alt = img.alt;
-                    fullscreenContainer.classList.remove("hidden");
-                });
+            // Agregar evento de clic para pantalla completa
+            img.addEventListener("click", () => {
+                fullscreenImg.src = img.src;
+                fullscreenImg.alt = img.alt;
+                fullscreenContainer.classList.remove("hidden");
             });
-        }
-    };
+        });
+    }
+};
 
    // Actualizar títulos dinámicos
    const updateTitles = (week) => {
@@ -277,6 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
         updateTitles(week);
         renderPhotos(week);
         renderVideos(week);
+        renderMaintenancePhotos(week);
     };
 
     // Inicializar
