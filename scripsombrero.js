@@ -71,7 +71,7 @@ const videos = [
 { src: "videos/sombrero/semana2-d4.mp4", description: "trabajando Maquina D4 265-266", week: 2 },
 { src: "videos/sombrero/semana2-d4-2.mp4", description: "Tramo 265-266 Antes del trabajo", week: 2 },
 { src: "videos/sombrero/semana2-d4-3-antes.mp4", description: "trabajando Maquinas 265-266", week: 2 },
-{ src: "videos/sombrero/semana2-d4-4.mp4", description: "Durante Limieza 265-266", week: 2 },
+{ src: "videos/sombrero/semana2-d4-4.mp4", description: "Durante Limpieza 265-266", week: 2 },
 { src: "videos/sombrero/semana2-d4-5-antes.mp4", description: "Antes de la Limpieza Tramo 267-268", week: 2 },
 
 { src: "videos/sombrero/semana2-d4-6.mp4", description: "Despues  267-268", week: 2 },
