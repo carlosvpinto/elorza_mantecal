@@ -258,6 +258,31 @@ h1, h2 {
 #close-fullscreen:hover {
     transform: scale(1.2);
 }
+.video-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta el ancho mínimo y máximo */
+    width: 100%;
+    margin: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 
 footer {

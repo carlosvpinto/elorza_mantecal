@@ -44,6 +44,13 @@ document.addEventListener("DOMContentLoaded", () => {
     { src: "imagenes/sombrero/semana2-1.jpeg", description: "Culminado 267-268", week: 2 },
     { src: "imagenes/sombrero/semana2-5.jpeg", description: "Antes limpieza 268-269", week: 2 },
     { src: "imagenes/sombrero/torresmaquinas.jpeg", description: "Maquinaria en zona de trabajo 268-269", week: 2 },
+    { src: "imagenes/sombrero/semana3drom.jpeg", description: "Sobre vuelo de dron de inspeccion", week: 3 },
+    { src: "imagenes/sombrero/semana3drom2.jpeg", description: "Sobre vuelo de dron de inspeccion", week: 3 },
+    { src: "imagenes/sombrero/semana3drom3.jpeg", description: "Sobre vuelo de dron de inspeccion", week: 3 },
+    { src: "imagenes/sombrero/semana3drom4.jpeg", description: "Sobre vuelo de dron de inspeccion", week: 3 },
+    { src: "imagenes/sombrero/semana3antes.jpeg", description: "Semana 3 Antes", week: 3 },
+    { src: "imagenes/sombrero/semana3antes2.jpeg", description: "semana 3 Antes Torre 270-271", week: 3 },
+    { src: "imagenes/sombrero/semana3antes3.jpeg", description: "Semana 3 Antes Torre 272", week: 3 },
 
 ];
 
@@ -72,6 +79,17 @@ const videos = [
 { src: "videos/sombrero/semana2-d4-9-antes.mp4", description: "Antes 268-269", week: 2 },
 
 { src: "videos/sombrero/semana2-d4-10.mp4", description: "trabajando Maquinas 268-269", week: 2 },
+{ src: "videos/sombrero/semana3drom1.mp4", description: "Sobre Vuelo de Dron", week: 3 },
+{ src: "videos/sombrero/semana3drom2.mp4", description: "Sobre Vuelo de Dron", week: 3 },
+{ src: "videos/sombrero/semana3drom3.mp4", description: "Sobre Vuelo de Dron", week: 3 },
+{ src: "videos/sombrero/semana3antes.mp4", description: "Torre 71 Antes de la Limpieza", week: 3 },
+{ src: "videos/sombrero/semana3durante.mp4", description: "Durante la Limpieza", week: 3 },
+{ src: "videos/sombrero/semana3durante2.mp4", description: "Durante la ejecucion Torre 71 ", week: 3 },
+{ src: "videos/sombrero/semana3torre269-270.mp4", description: "Trabajo entre la Torre 269-270", week: 3 },
+{ src: "videos/sombrero/semana3torre270-271.mp4", description: "Tabajo entre la Torre 270-271 ", week: 3 },
+{ src: "videos/sombrero/semana3torre272-273.mp4", description: "Trabajo entre la Torre 272-273", week: 3 },
+{ src: "videos/sombrero/semana3torre273-274.mp4", description: "Trabajo entre la 273-274 ", week: 3 },
+
 
 
 
@@ -129,31 +147,37 @@ const videos = [
     };
 
     // Renderizar videos filtrados por semana
-    const renderVideos = (week) => {
-        videoGallery.innerHTML = ""; // Limpiar galería de videos
+const renderVideos = (week) => {
+    videoGallery.innerHTML = ""; // Limpiar galería de videos
 
-        const filteredVideos = week === "all" ? videos : videos.filter(video => video.week === parseInt(week));
+    const filteredVideos = week === "all" ? videos : videos.filter(video => video.week === parseInt(week));
 
-        if (filteredVideos.length === 0) {
-            videoGallery.innerHTML = "<p>No hay videos para esta semana.</p>";
-        } else {
-            filteredVideos.forEach(video => {
-                const videoItem = document.createElement("div");
-                videoItem.classList.add("video-item");
+    if (filteredVideos.length === 0) {
+        videoGallery.innerHTML = "<p>No hay videos para esta semana.</p>";
+    } else {
+        const videoGrid = document.createElement("div");
+        videoGrid.classList.add("video-grid"); // Clase para establecer el estilo con CSS
 
-                const vid = document.createElement("video");
-                vid.controls = true;
-                vid.src = video.src;
+        filteredVideos.forEach(video => {
+            const videoItem = document.createElement("div");
+            videoItem.classList.add("video-item");
 
-                const desc = document.createElement("p");
-                desc.textContent = video.description;
+            const vid = document.createElement("video");
+            vid.controls = true;
+            vid.src = video.src;
 
-                videoItem.appendChild(vid);
-                videoItem.appendChild(desc);
-                videoGallery.appendChild(videoItem);
-            });
-        }
-    };
+            const desc = document.createElement("p");
+            desc.textContent = video.description;
+
+            videoItem.appendChild(vid);
+            videoItem.appendChild(desc);
+            videoGrid.appendChild(videoItem);
+        });
+
+        videoGallery.appendChild(videoGrid);
+    }
+};
+
 
     // Actualizar títulos dinámicos
     const updateTitles = (week) => {
