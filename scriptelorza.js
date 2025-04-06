@@ -90,6 +90,15 @@ document.addEventListener("DOMContentLoaded", () => {
             { src: "imagenes/elorza/torre44.jpeg", description: "Limpieza Torre 44" , week: 4},
             { src: "imagenes/elorza/torre45-antes.jpeg", description: "Antes Torre 45" , week: 4},
             { src: "imagenes/elorza/torre45.jpeg", description: "Limpieza Torre 45" , week: 4},
+            { src: "imagenes/elorza/torre47antes.jpeg", description: "Torre 47 Antes de la Limpieza" , week: 5},
+            { src: "imagenes/elorza/torre47.jpeg", description: "Torre 47" , week: 5},
+            { src: "imagenes/elorza/torre48.jpeg", description: "Torre 48" , week: 5},
+            { src: "imagenes/elorza/torre49antes.jpeg", description: "Torre 49 antes de la Limpieza" , week: 5},
+           
+            { src: "imagenes/elorza/torre49-1.jpeg", description: "Torre 49" , week: 5},
+            { src: "imagenes/elorza/torre50.jpeg", description: "Torre 50" , week: 5},
+            { src: "imagenes/elorza/torre51-antes.jpeg", description: "Torre 51 Antes" , week: 5},
+            { src: "imagenes/elorza/torre51.jpeg", description: "Torre 51" , week: 5},
             
           
         ];
@@ -119,12 +128,16 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/elorza/tramo20-21-2.jpeg", description: "Tramo 20-21 Antes del Mantenimiento " , week: 2},
         { src: "imagenes/elorza/tramo21-22despues.jpeg", description: "Tramo 21-22 Despues del Mantenimiento", week: 2 },
         { src: "imagenes/elorza/tramo21-22.jpeg", description: "Tramo 21-22 Antes del Mantenimiento ", week: 2 },
-        
-        
         { src: "imagenes/elorza/tramo58-57.jpeg", description: "Tramo 58-57 Fuera del Cronograma", week: 3 },
         { src: "imagenes/elorza/tramo62-61.jpeg", description: "Tramo 62-61 Fuera del Cronograma" , week: 3},
         { src: "imagenes/elorza/tramo45-46-antes.jpeg", description: "Tramo 45-46 Antes del Manteniento" , week: 4},
         { src: "imagenes/elorza/tramo45-46.jpeg", description: "Tramo 45-46 Durante el mantenimiento" , week: 4},
+        { src: "imagenes/elorza/tramo47-48antes.jpeg", description: "tramo 47-48 Antes del mantenimiento", week: 5 },
+        { src: "imagenes/elorza/antestorre49.jpeg", description: "Antes Torre 49", week: 5 },
+        { src: "imagenes/elorza/antestorre49-50.jpeg", description: "Tramo 49-50 Durante la Limpieza" , week: 5},
+        { src: "imagenes/elorza/torre49-50-1.jpeg", description: "Tramo 51-52 Durante Manteniento" , week: 5},
+        { src: "imagenes/elorza/tramo51-52.jpeg", description: "Tramo 51-52 Durante el mantenimiento" , week: 5},
+        { src: "imagenes/elorza/tramo52-53.jpeg", description: "Tramo 52-53 Despues del Mantenimiento" , week: 5},
         
     
     
