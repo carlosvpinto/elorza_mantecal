@@ -137,6 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/elorza/antestorre49-50.jpeg", description: "Tramo 49-50 Durante la Limpieza" , week: 5},
         { src: "imagenes/elorza/torre49-50-1.jpeg", description: "Tramo 51-52 Durante Manteniento" , week: 5},
         { src: "imagenes/elorza/tramo51-52.jpeg", description: "Tramo 51-52 Durante el mantenimiento" , week: 5},
+        { src: "imagenes/elorza/tramo52-53-1.jpeg", description: "Tramo 52-53 Durante el mantenimiento" , week: 5},
         { src: "imagenes/elorza/tramo52-53.jpeg", description: "Tramo 52-53 Despues del Mantenimiento" , week: 5},
         
     
