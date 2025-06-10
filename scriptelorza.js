@@ -99,7 +99,134 @@ document.addEventListener("DOMContentLoaded", () => {
             { src: "imagenes/elorza/torre50.jpeg", description: "Torre 50" , week: 5},
             { src: "imagenes/elorza/torre51-antes.jpeg", description: "Torre 51 Antes" , week: 5},
             { src: "imagenes/elorza/torre51.jpeg", description: "Torre 51" , week: 5},
+
+
+            { src: "imagenes/elorza/torre52.jpeg", description: "Torre 52" , week: 5},
+            { src: "imagenes/elorza/torre53-a.jpeg", description: "Torre 53 Antes" , week: 5},
+            { src: "imagenes/elorza/torre53.jpeg", description: "Torre 53" , week: 5},
+            { src: "imagenes/elorza/torre54-a.jpeg", description: "Torre 54 Antes" , week: 5},
+            { src: "imagenes/elorza/torre54.jpeg", description: "Torre 54" , week: 5},
+        
+            { src: "imagenes/elorza/torre55.jpeg", description: "Torre 55" , week: 5},
+            { src: "imagenes/elorza/torre56-a.jpeg", description: "Torre 56 Antes" , week: 5},
+            { src: "imagenes/elorza/torre56.jpeg", description: "Torre 56" , week: 5},
+            { src: "imagenes/elorza/torre57.jpeg", description: "Torre 57" , week: 5},
+
+            { src: "imagenes/elorza/torre57-a.jpeg", description: "Torre 57 Antes" , week: 5},
+          
+            { src: "imagenes/elorza/torre58.jpeg", description: "Torre 58" , week: 5},
+            { src: "imagenes/elorza/torre59-a.jpeg", description: "Torre 59 Antes" , week: 5},
+            { src: "imagenes/elorza/torre59.jpeg", description: "Torre 59" , week: 5},
+            { src: "imagenes/elorza/torre60-a.jpeg", description: "Torre 60 Antes" , week: 5},
+            { src: "imagenes/elorza/torre60.jpeg", description: "Torre 60" , week: 5},
+       
+            { src: "imagenes/elorza/torre61.jpeg", description: "Torre 61" , week: 5},
+          
+            { src: "imagenes/elorza/torre62.jpeg", description: "Torre 62" , week: 5},
+            { src: "imagenes/elorza/torre63-a.jpeg", description: "Torre 63 Antes" , week: 5},
+            { src: "imagenes/elorza/torre63.jpeg", description: "Torre 63" , week: 5},
             
+            { src: "imagenes/elorza/torre64.jpeg", description: "Torre 64" , week: 5},
+            { src: "imagenes/elorza/torre65-a.jpeg", description: "Torre 65 Antes" , week: 5},
+            { src: "imagenes/elorza/torre65.jpeg", description:"Torre 65" , week :5 },
+            { src: "imagenes/elorza/torre66-a.jpeg", description:"Torre 66 Antes" , week :5 },
+            { src: "imagenes/elorza/torre66.jpeg", description: "Torre 66" , week: 5},
+            { src: "imagenes/elorza/torre67-a.jpeg", description: "Torre 67 Antes" , week: 5},
+            { src: "imagenes/elorza/torre67.jpeg", description: "Torre 67" , week: 5},
+            { src: "imagenes/elorza/torre68-a.jpeg", description: "Torre 68 Antes" , week: 5},
+            { src: "imagenes/elorza/torre68.jpeg", description: "Torre 68" , week: 5},
+            { src: "imagenes/elorza/torre69-a.jpeg", description: "Torre 69 Antes" , week: 5},
+            { src: "imagenes/elorza/torre69.jpeg", description: "Torre 69" , week: 5},
+          
+            { src: "imagenes/elorza/torre70.jpeg", description:"Torre 70" , week :5 },
+           
+
+
+            { src: "imagenes/elorza/torre74-a.jpeg", description:"Torre 74 Antes" , week :6 },
+            { src: "imagenes/elorza/torre74.jpeg", description:"Torre 74" , week :6 },
+         
+            { src: "imagenes/elorza/torre75.jpeg", description:"Torre 75" , week :6 },
+          
+            { src: "imagenes/elorza/torre76.jpeg", description:"Torre 76" , week :6 },
+         
+            { src: "imagenes/elorza/torre77.jpeg", description:"Torre 77" , week :6 },
+            { src: "imagenes/elorza/torre78-a.jpeg", description:"Torre 78 Antes" , week :6 },
+            { src: "imagenes/elorza/torre78.jpeg", description:"Torre 78" , week :6 },
+            { src: "imagenes/elorza/torre79-a.jpeg", description:"Torre 79 Antes" , week :6 },
+            { src: "imagenes/elorza/torre79.jpeg", description:"Torre 79" , week :6 },
+           
+            { src: "imagenes/elorza/torre81-a.jpeg", description:"Torre 81 Antes" , week :6 },
+            { src: "imagenes/elorza/torre81.jpeg", description:"Torre 81" , week :6 },
+            { src: "imagenes/elorza/torre82-a.jpeg", description:"Torre 82 Antes" , week :7 },
+            { src: "imagenes/elorza/torre82.jpeg", description:"Torre 82" , week :7 },
+            { src: "imagenes/elorza/torre83-a.jpeg", description:"Torre 83 Antes" , week :7 },
+            { src: "imagenes/elorza/torre83.jpeg", description:"Torre 83" , week :7 },
+            { src: "imagenes/elorza/torre84-a.jpeg", description:"Torre 84 Antes" , week :7 },
+            { src: "imagenes/elorza/torre84.jpeg", description:"Torre 84" , week :7 },
+      
+            { src: "imagenes/elorza/torre85.jpeg", description:"Torre 85" , week :7 },
+            { src: "imagenes/elorza/torre86-a.jpeg", description:"Torre 86 Antes" , week :7 },
+            { src: "imagenes/elorza/torre86.jpeg", description:"Torre 86" , week :7 },
+            { src: "imagenes/elorza/torre87-a.jpeg", description:"Torre 87 Antes" , week :7 },
+            { src: "imagenes/elorza/torre87.jpeg", description:"Torre 87" , week :7 },
+            { src: "imagenes/elorza/torre88-a.jpeg", description:"Torre 88 Antes" , week :7 },
+            { src: "imagenes/elorza/torre88.jpeg", description:"Torre 88" , week :7 },
+          
+      
+            { src: "imagenes/elorza/torre90.jpeg", description:"Torre 90" , week :7 },
+            { src: "imagenes/elorza/torre91-a.jpeg", description:"Torre 91 Antes" , week :7 },
+            { src: "imagenes/elorza/torre91.jpeg", description:"Torre 91" , week :8 },
+            { src: "imagenes/elorza/torre92-a.jpeg", description:"Torre 92 Antes" , week :8 },
+            { src: "imagenes/elorza/torre92.jpeg", description:"Torre 92" , week :8 },
+            { src: "imagenes/elorza/torre93-a.jpeg", description:"Torre 93 Antes" , week :8 },
+            { src: "imagenes/elorza/torre93.jpeg", description:"Torre 93" , week :8 },
+           
+            { src: "imagenes/elorza/torre95-a.jpeg", description:"Torre 95 Antes" , week :8 },
+            { src: "imagenes/elorza/torre95.jpeg", description:"Torre 95" , week :8 },
+          
+            { src: "imagenes/elorza/torre96.jpeg", description:"Torre 96" , week :8 },
+      
+            
+            { src: "imagenes/elorza/torre98-a.jpeg", description:"Torre 98 Antes" , week :8 },
+            { src: "imagenes/elorza/torre98.jpeg", description:"Torre 98" , week :8 },
+        
+            { src: "imagenes/elorza/torre99-a.jpeg", description:"Torre 99 Antes" , week :9 },
+            { src: "imagenes/elorza/torre99.jpeg", description:"Torre 99" , week :9 },
+            { src: "imagenes/elorza/torre100-a.jpeg", description:"Torre 100 Antes" , week :9 },
+            { src: "imagenes/elorza/torre100.jpeg", description:"Torre 100" , week :9 },
+          
+            { src: "imagenes/elorza/torre101.jpeg", description:"Torre 101" , week :9 },
+            { src: "imagenes/elorza/torre102-a.jpeg", description:"Torre 102 Antes" , week :9 },
+            { src: "imagenes/elorza/torre102.jpeg", description:"Torre 102" , week :9 },
+            { src: "imagenes/elorza/torre103-a.jpeg", description:"Torre 103 Antes" , week :9 },
+            { src: "imagenes/elorza/torre103.jpeg", description:"Torre 103" , week :9 },
+         
+            { src: "imagenes/elorza/torre105-a.jpeg", description:"Torre 105 Antes" , week :9 },
+            { src: "imagenes/elorza/torre105.jpeg", description:"Torre 105" , week :9 },
+            { src: "imagenes/elorza/torre106-a.jpeg", description:"Torre 106 Antes" , week :9 },
+            { src: "imagenes/elorza/torre106.jpeg", description:"Torre 106" , week :9 },
+            { src: "imagenes/elorza/torre107-a.jpeg", description:"Torre 107 Antes" , week :9 },
+            { src: "imagenes/elorza/torre107.jpeg", description:"Torre 107" , week :9 },
+            { src: "imagenes/elorza/torre108-a.jpeg", description:"Torre 108 Antes" , week :9 },
+            { src: "imagenes/elorza/torre108.jpeg", description:"Torre 108" , week :9 },
+            { src: "imagenes/elorza/torre109-a.jpeg", description:"Torre 109 Antes" , week :9 },
+            { src: "imagenes/elorza/torre109.jpeg", description:"Torre 109" , week :9 },
+           
+            { src: "imagenes/elorza/torre112-a.jpeg", description:"Torre 112 Antes" , week :9 },
+            { src: "imagenes/elorza/torre112.jpeg", description:"Torre 112" , week :9 },
+            { src: "imagenes/elorza/torre113-a.jpeg", description:"Torre 113 Antes" , week :9 },
+            { src: "imagenes/elorza/torre113.jpeg", description:"Torre 113" , week :9 },
+            { src: "imagenes/elorza/torre114-a.jpeg", description:"Torre 114 Antes" , week :9 },
+            { src: "imagenes/elorza/torre114.jpeg", description:"Torre 114" , week :9 },
+            { src: "imagenes/elorza/torre115-a.jpeg", description:"Torre 115 Antes" , week :9 },
+            { src: "imagenes/elorza/torre115.jpeg", description:"Torre 115" , week :9 },
+            { src: "imagenes/elorza/torre116-a.jpeg", description:"Torre 116 Antes" , week :9 },
+            { src: "imagenes/elorza/torre116.jpeg", description:"Torre 116" , week :9 },
+            
+            { src: "imagenes/elorza/torre117.jpeg", description:"Torre 117" , week :9 },
+            { src: "imagenes/elorza/torre118-a.jpeg", description:"Torre 118 Antes" , week :9 },
+            { src: "imagenes/elorza/torre118.jpeg", description:"Torre 118" , week :9 },
+           
           
         ];
     
@@ -139,6 +266,42 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/elorza/tramo51-52.jpeg", description: "Tramo 51-52 Durante el mantenimiento" , week: 5},
         { src: "imagenes/elorza/tramo52-53-1.jpeg", description: "Tramo 52-53 Durante el mantenimiento" , week: 5},
         { src: "imagenes/elorza/tramo52-53.jpeg", description: "Tramo 52-53 Despues del Mantenimiento" , week: 5},
+        { src: "imagenes/elorza/tramo74-75.jpeg", description: "Torre 74-75 En trabajos de Mantenimiento", week: 6 },
+        { src: "imagenes/elorza/tramo75-76.jpeg", description: "Torre 75-76 En trabajos de Mantenimiento", week: 6 },
+        { src: "imagenes/elorza/tramo76-77.jpeg", description: "Torre 76-77 En trabajos de Mantenimiento" , week: 6},
+        { src: "imagenes/elorza/tramo77-78.jpeg", description: "Torre 77-78 En trabajos de Mantenimiento", week: 6 },
+        { src: "imagenes/elorza/tramo78-79.jpeg", description: "Torre 78-79 En trabajos de Mantenimiento" , week: 6},
+        { src: "imagenes/elorza/tramo79-80.jpeg", description: "Torre 79-80 En trabajos de Mantenimiento" , week: 6},
+        { src: "imagenes/elorza/tramo81-82.jpeg", description: "Torre 81-82 En trabajos de Mantenimiento" , week: 6},
+        { src: "imagenes/elorza/tramo82-83.jpeg", description: "Torre 82-83 En trabajos de Mantenimiento" , week: 7},
+        { src: "imagenes/elorza/tramo83-84.jpeg", description: "Torre 83-84 En trabajos de Mantenimiento" , week: 7},
+        { src: "imagenes/elorza/tramo84-85.jpeg", description: "Torre 84-85 En trabajos de Mantenimiento" , week: 7},
+        { src: "imagenes/elorza/tramo85-86.jpeg", description: "Torre 85-86 En trabajos de Mantenimiento" , week: 7},
+        { src: "imagenes/elorza/tramo86-87.jpeg", description: "Torre 86-87 En trabajos de Mantenimiento" , week: 7},
+        { src: "imagenes/elorza/tramo87-88.jpeg", description: "Torre 87-88 En trabajos de Mantenimiento" , week: 7},
+        { src: "imagenes/elorza/tramo88-89.jpeg", description: "Torre 88-89 En trabajos de Mantenimiento" , week: 7},
+        { src: "imagenes/elorza/tramo90-91.jpeg", description:"Torre 90-91 En trabajos de Mantenimiento" , week :7 },
+        { src: "imagenes/elorza/tramo91-92.jpeg", description:"Torre 91-92 En trabajos de Mantenimiento" , week :8 },
+        { src: "imagenes/elorza/tramo92-93.jpeg", description:"Torre 92-93 En trabajos de Mantenimiento" , week :8 },
+        
+        { src: "imagenes/elorza/tramo95-96.jpeg", description:"Torre 95-96 En trabajos de Mantenimiento" , week :8 },
+        { src: "imagenes/elorza/tramo96-97.jpeg", description:"Torre 96-97 En trabajos de Mantenimiento" , week :8 },
+        { src: "imagenes/elorza/tramo98-99.jpeg", description:"Torre 98-99 En trabajos de Mantenimiento" , week :8 },
+        { src: "imagenes/elorza/tramo99-100.jpeg", description:"Torre 99-100 En trabajos de Mantenimiento" , week :9 },
+        { src: "imagenes/elorza/tramo100-101.jpeg", description:"Torre 100-101 En trabajos de Mantenimiento" , week :9 },
+       
+        { src: "imagenes/elorza/tramo103-104.jpeg", description:"Torre 103-104 En trabajos de Mantenimiento" , week :9 },
+     
+        { src: "imagenes/elorza/tramo105-106.jpeg", description:"Torre 105-106 En trabajos de Mantenimiento" , week :9 },
+       
+        
+        { src: "imagenes/elorza/tramo112-113.jpeg", description:"Torre 112-113 En trabajos de Mantenimiento" , week :9 },
+        { src: "imagenes/elorza/tramo113-114.jpeg", description:"Torre 113-114 En trabajos de Mantenimiento" , week :9 },
+        { src: "imagenes/elorza/tramo114-115.jpeg", description:"Torre 114-115 En trabajos de Mantenimiento" , week :9 },
+        { src: "imagenes/elorza/tramo115-116.jpeg", description:"Torre 115-116 En trabajos de Mantenimiento" , week :9 },
+      
+    
+       
         
     
     
@@ -159,14 +322,14 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "videos/elorza/torre60-61.mp4", description: "tramo  60-61 Fuera del Cronograma", week: 1 },
         { src: "videos/elorza/torre61.mp4", description: "Torre 61 Fuera del Cronograma", week: 1 },
         { src: "videos/elorza/torre63.mp4", description: "Torre 63 Fuera del Cronograma", week: 1 },
-        { src: "videos/elorza/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma" , week: 1},
-        { src: "videos/elorza/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma", week: 1 },
-        { src: "videos/elorza/tramo58-57.mp4", description: "Torre 58-57 Fuera del Cronograma", week: 1 },
-        { src: "videos/elorza/tramo58-59.mp4", description: "Torre 53-52 Fuera del Cronograma", week: 1 },
-        { src: "videos/elorza/tramo62-61.mp4", description: "Torre 62-61 Fuera del Cronograma", week: 3 },
-        { src: "videos/elorza/tramo62-63.mp4", description: "Torre 62-63 Fuera del Cronograma", week: 2 },
-        { src: "videos/elorza/tramo53-52.mp4", description: "Torre 53-52 Fuera del Cronograma" , week: 2},
-        
+        { src: "videos/elorza/tramo53-52.jpeg", description: "Torre 53-52 Fuera del Cronograma" , week: 1},
+        { src: "videos/elorza/tramo53-52.jpeg", description: "Torre 53-52 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/tramo58-57.jpeg", description: "Torre 58-57 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/tramo58-59.jpeg", description: "Torre 53-52 Fuera del Cronograma", week: 1 },
+        { src: "videos/elorza/tramo62-61.jpeg", description: "Torre 62-61 Fuera del Cronograma", week: 3 },
+        { src: "videos/elorza/tramo62-63.jpeg", description: "Torre 62-63 Fuera del Cronograma", week: 2 },
+        { src: "videos/elorza/tramo53-52.jpeg", description: "Torre 53-52 Fuera del Cronograma" , week: 2},
+       
        
         // Añade más videos según sea necesario
     ];

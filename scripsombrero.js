@@ -51,6 +51,8 @@ document.addEventListener("DOMContentLoaded", () => {
     { src: "imagenes/sombrero/semana3antes.jpeg", description: "Semana 3 Antes", week: 3 },
     { src: "imagenes/sombrero/semana3antes2.jpeg", description: "semana 3 Antes Torre 270-271", week: 3 },
     { src: "imagenes/sombrero/semana3antes3.jpeg", description: "Semana 3 Antes Torre 272", week: 3 },
+    { src: "imagenes/sombrero/correcion2.jpeg", description: "Semana 4 Correcciones", week: 4 },
+    { src: "imagenes/sombrero/correcion1.jpeg", description: "Semana 4 Correcciones", week: 4 },
 
 ];
 
@@ -89,6 +91,11 @@ const videos = [
 { src: "videos/sombrero/semana3torre270-271.mp4", description: "Tabajo entre la Torre 270-271 ", week: 3 },
 { src: "videos/sombrero/semana3torre272-273.mp4", description: "Trabajo entre la Torre 272-273", week: 3 },
 { src: "videos/sombrero/semana3torre273-274.mp4", description: "Trabajo entre la 273-274 ", week: 3 },
+
+{ src: "videos/sombrero/correciones1.mp4", description: "Corrección Torre 270-271 ", week: 4 },
+{ src: "videos/sombrero/correciones2.mp4", description: "Corrección ", week: 4 },
+{ src: "videos/sombrero/correciones3.mp4", description: "Corrección Torre 271-272 ", week: 4 },
+
 
 
 
