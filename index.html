@@ -3,20 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido al Proyecto de Limpieza de Torres</title>
-    <!-- Asegúrate de que el archivo styles.css esté en la misma carpeta -->
-    <link rel="stylesheet" href="styles.css"> 
+    <title>Servielec - Proyecto de Mantenimiento de Torres</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Opcional: Para una mejor tipografía, usando Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<body class="landing-page">
+<body class="landing-page-v2">
+
+    <!-- Capa de superposición oscura para mejorar el contraste del texto -->
+    <div class="overlay"></div>
 
     <main class="landing-container">
         
-        <div class="landing-content">
-            <h1 class="landing-title">Proyecto de Limpieza de Torres de Alta Tensión</h1>
-            <p class="landing-subtitle">Seguimiento y documentación del progreso de los trabajos de mantenimiento.</p>
-            
-            <a href="elorza-mantecal.html" class="cta-button">Ver Proyecto Elorza-Mantecal</a>
-        </div>
+        <header class="landing-header">
+            <p class="project-client">Un proyecto para <strong>Corpoelec</strong></p>
+            <h1 class="landing-title">Mantenimiento y Limpieza de Torres de Alta Tensión</h1>
+        </header>
+
+        <section class="project-details">
+            <h2 class="project-section-title">Tramo: Elorza - Mantecal</h2>
+            <p class="project-rep"><strong>Ing. a cargo:</strong> Carlos Pinto</p>
+            <a href="elorza-mantecal.html" class="cta-button">Ver Avance del Proyecto</a>
+        </section>
+
+        <footer class="landing-footer">
+            <p>Ejecutado por</p>
+            <!-- Si tienes un logo de Servielec en versión blanca/clara, úsalo aquí -->
+            <img src="imagenes/logo-servielec-blanco.png" alt="Logo de Servielec" class="company-logo">
+        </footer>
 
     </main>
 
