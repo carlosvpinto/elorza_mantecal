@@ -226,8 +226,39 @@ document.addEventListener("DOMContentLoaded", () => {
             { src: "imagenes/elorza/torre117.jpeg", description:"Torre 117" , week :9 },
             { src: "imagenes/elorza/torre118-a.jpeg", description:"Torre 118 Antes" , week :9 },
             { src: "imagenes/elorza/torre118.jpeg", description:"Torre 118" , week :9 },
-           
-          
+
+            //FOTOS TORRES DESPUES DEL INVERNO
+            { src: "imagenes/elorza/torre110.jpeg", description:"Torre 110" , week :10 },
+            { src: "imagenes/elorza/torre110-a.jpeg", description:"Torre 110 Antes" , week :10 },
+            { src: "imagenes/elorza/torre118.jpeg", description:"Torre 118" , week :10 },
+           // { src: "imagenes/elorza/torre119-a.jpeg", description:"Torre 119 Antes" , week :11 },
+            { src: "imagenes/elorza/torre119.jpeg", description:"Torre 119" , week :10 },
+            { src: "imagenes/elorza/torre120-a.jpeg", description:"Torre 120 Antes" , week :10 },
+            { src: "imagenes/elorza/torre120.jpeg", description:"Torre 120" , week :10 },
+            { src: "imagenes/elorza/torre121-a.jpeg", description:"Torre 121 Antes" , week :10 },
+            { src: "imagenes/elorza/torre121.jpeg", description:"Torre 121" , week :10 },
+            { src: "imagenes/elorza/torre122-a.jpeg", description:"Torre 122 Antes" , week :10 },
+           // { src: "imagenes/elorza/torre122.jpeg", description:"Torre 122" , week :12 },
+            { src: "imagenes/elorza/torre123-a.jpeg", description:"Torre 123 Antes" , week :11 },
+            { src: "imagenes/elorza/torre123.jpeg", description:"Torre 123" , week :11 },
+            { src: "imagenes/elorza/torre124-a.jpeg", description:"Torre 124 Antes" , week :11 },
+            { src: "imagenes/elorza/torre124.jpeg", description:"Torre 124" , week :11 },
+            { src: "imagenes/elorza/torre125-a.jpeg", description:"Torre 125 Antes" , week :11 },
+            { src: "imagenes/elorza/torre125.jpeg", description:"Torre 125" , week :11 },
+            { src: "imagenes/elorza/torre126-a.jpeg", description:"Torre 126 Antes" , week :11 },
+            { src: "imagenes/elorza/torre126.jpeg", description:"Torre 126" , week :11 },
+            { src: "imagenes/elorza/torre127-a.jpeg", description:"Torre 127 Antes" , week :12 },
+            { src: "imagenes/elorza/torre127.jpeg", description:"Torre 127" , week :12 },
+            { src: "imagenes/elorza/torre128-a.jpeg", description:"Torre 128 Antes" , week :12 },
+            { src: "imagenes/elorza/torre128.jpeg", description:"Torre 128" , week :12 },
+            { src: "imagenes/elorza/torre129-a.jpeg", description:"Torre 129 Antes" , week :12 },
+            { src: "imagenes/elorza/torre129.jpeg", description:"Torre 129" , week :12 },
+            { src: "imagenes/elorza/torre130-a.jpeg", description:"Torre 130 Antes" , week :12 },
+            { src: "imagenes/elorza/torre130.jpeg", description:"Torre 130" , week :12 },
+            { src: "imagenes/elorza/torre131-a.jpeg", description:"Torre 131 Antes" , week :12 },   
+            { src: "imagenes/elorza/torre131.jpeg", description:"Torre 131" , week :12 },
+            { src: "imagenes/elorza/torre132-a.jpeg", description:"Torre 132 Antes" , week :12 },
+            { src: "imagenes/elorza/torre132.jpeg", description:"Torre 132" , week :12},      
         ];
     
 
@@ -299,7 +330,24 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/elorza/tramo113-114.jpeg", description:"Torre 113-114 En trabajos de Mantenimiento" , week :9 },
         { src: "imagenes/elorza/tramo114-115.jpeg", description:"Torre 114-115 En trabajos de Mantenimiento" , week :9 },
         { src: "imagenes/elorza/tramo115-116.jpeg", description:"Torre 115-116 En trabajos de Mantenimiento" , week :9 },
-      
+
+        //despues del invierno****************************
+        { src: "imagenes/elorza/tramo100-101c.jpeg", description:"Tramo 100-101 Culminacion tramo 100-101" , week :10 },
+        { src: "imagenes/elorza/tramo100-101c2.jpeg", description:"Tramo 100-101 Culminacion tramo 100-101" , week :10 },
+        { src: "imagenes/elorza/tramo114-115.jpeg", description:"Torre 114-115 En trabajos de Mantenimiento" , week :10 },
+        { src: "imagenes/elorza/tramo115-116.jpeg", description:"Torre 115-116 En trabajos de Mantenimiento" , week :10 },
+        { src: "imagenes/elorza/tramo119-120-a.jpeg", description:"Torre 119-120 En trabajos de Mantenimiento" , week :10 },
+        { src: "imagenes/elorza/tramo119-120.jpeg", description:"Torre 119-120 En trabajos de Mantenimiento" , week :10 },
+        { src: "imagenes/elorza/tramo120-121.jpeg", description:"Torre 120-121 En trabajos de Mantenimiento" , week :10 },
+        { src: "imagenes/elorza/tramo121-122a.jpeg", description:"Torre 121-122 En trabajos de Mantenimiento" , week :10 },
+        { src: "imagenes/elorza/tramo121-122.jpeg", description:"Torre 121-122 En trabajos de Mantenimiento" , week :10 },
+        { src: "imagenes/elorza/tramo123-124a.jpeg", description:"Torre 123-124 En trabajos de Mantenimiento" , week :10 },
+        { src: "imagenes/elorza/tramo123-124.jpeg", description:"Torre 123-124 En trabajos de Mantenimiento" , week :11 },
+        { src: "imagenes/elorza/tramo124-125.jpeg", description:"Torre 124-125 En trabajos de Mantenimiento" , week :11 },
+        { src: "imagenes/elorza/tramo125-126.jpeg", description:"Torre 125-126 En trabajos de Mantenimiento" , week :11 },
+        { src: "imagenes/elorza/tramo126-127.jpeg", description:"Torre 126-127 En trabajos de Mantenimiento" , week :12 },
+        { src: "imagenes/elorza/tramo129-130.jpeg", description:"Torre 129-130 En trabajos de Mantenimiento" , week :12 },
+        
     
        
         
@@ -337,21 +385,32 @@ document.addEventListener("DOMContentLoaded", () => {
     // Generar los botones de filtro dinámicamente
     const weeks = [...new Set([...photos.map(photo => photo.week), ...maintenancePhotos.map(photo => photo.week)])];
 
-    const createFilterButtons = () => {
-        // Botón para "Todas las Semanas"
-        const allButton = document.createElement("button");
-        allButton.textContent = "Todas las Semanas";
-        allButton.setAttribute("data-week", "all");
-        filterContainer.appendChild(allButton);
+const createFilterButtons = () => {
+    // Botón para "Todas las Semanas"
+    const allButton = document.createElement("button");
+    allButton.textContent = "Todas las Semanas";
+    allButton.setAttribute("data-week", "all");
+    filterContainer.appendChild(allButton);
 
-        // Botones para cada semana
-        weeks.forEach(week => {
-            const button = document.createElement("button");
-            button.textContent = `Semana ${week}`;
-            button.setAttribute("data-week", week);
-            filterContainer.appendChild(button);
-        });
-    };
+    // Ordenar las semanas numéricamente antes de crear los botones
+    const sortedWeeks = weeks.sort((a, b) => a - b);
+
+    // Botones para cada semana
+    sortedWeeks.forEach(week => {
+        const button = document.createElement("button");
+        button.textContent = `Semana ${week}`;
+        button.setAttribute("data-week", week);
+
+        // ===== INICIO DEL CAMBIO CLAVE =====
+        // Si la semana es 10 o mayor, añade la clase 'reinicio'
+        if (week >= 10) {
+            button.classList.add("reinicio");
+        }
+        // ===== FIN DEL CAMBIO CLAVE =====
+
+        filterContainer.appendChild(button);
+    });
+};
 
     // Renderizar videos filtrados por semana
     const renderVideos = (week) => {
