@@ -187,6 +187,109 @@ h1, h2, .progress-details p {
     background-color: #28a745; /* Mismo verde que los botones de reinicio */
 }
 
+/* ... (tu CSS anterior) ... */
+
+/* Contenedor principal para el anuncio y el gráfico */
+.anuncio-y-grafico {
+    display: flex; /* Activa Flexbox */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    gap: 20px; /* Espacio entre el anuncio y el gráfico */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el anuncio (ahora es un elemento flexible) */
+.anuncio-importante {
+    flex: 2; /* Ocupa el doble de espacio que el gráfico */
+    min-width: 300px; /* Ancho mínimo antes de envolverse */
+    background-color: #f0f8ff;
+    border-left: 5px solid #0056b3;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Contenedor del gráfico (elemento flexible) */
+.grafico-progreso {
+    flex: 1; /* Ocupa una parte del espacio */
+    min-width: 250px; /* Ancho mínimo */
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.grafico-progreso h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.grafico-circular-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/* EL GRÁFICO CIRCULAR (La Magia del CSS) */
+.grafico-circular {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Lo hace un círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* 
+       Cálculo del gradiente cónico:
+       - Torres trabajadas: 132
+       - Total de torres: 212
+       - Porcentaje: (132 / 212) * 100 = 62.26%
+       - Grados: (132 / 212) * 360 = 224.15 grados
+    */
+    background: conic-gradient(
+        #28a745 0deg 224deg,  /* Verde para el 62% */
+        #e0e0e0 224deg 360deg /* Gris para el resto */
+    );
+}
+
+/* Estilo para el porcentaje en el centro */
+.grafico-circular .porcentaje {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    background-color: white; /* Círculo blanco interior */
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Leyenda del gráfico */
+.leyenda-grafico {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.leyenda-grafico-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Colores para la leyenda del gráfico */
+.leyenda-grafico .color-box.culminadas {
+    background-color: #28a745;
+}
+
+.leyenda-grafico .color-box.pendientes {
+    background-color: #e0e0e0;
+}
+
 /* ... (tu CSS para footer) ... */
 
 
