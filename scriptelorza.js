@@ -380,12 +380,17 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "imagenes/elorza/tramo126-127.jpeg", description:"Torre 126-127 En trabajos de Mantenimiento" , week :12 },
         { src: "imagenes/elorza/tramo129-130.jpeg", description:"Torre 129-130 En trabajos de Mantenimiento" , week :12 },
         
-        { src: "imagenes/elorza/tramo131-132.jpeg", description:"Torre 131-132 En trabajos de Mantenimiento" , week :12 },
+       // { src: "imagenes/elorza/tramo131-132.jpeg", description:"Torre 131-132 En trabajos de Mantenimiento" , week :12 },
         { src: "imagenes/elorza/tramo132-133.jpeg", description:"Torre 132-133 En trabajos de Mantenimiento" , week :12 },
-        { src: "imagenes/elorza/tramo134-135.jpeg", description:"Torre 134-135 En trabajos de Mantenimiento" , week :12 },
-        { src: "imagenes/elorza/tramo136-137.jpeg", description:"Torre 136-137 En trabajos de Mantenimiento" , week :12 },
-        { src: "imagenes/elorza/tramo137-138.jpeg", description:"Torre 137-138 En trabajos de Mantenimiento" , week :12 },
-    
+        { src: "imagenes/elorza/tramo135-136.jpeg", description:"Torre 135-136 En trabajos de Mantenimiento" , week :12 },
+        //{ src: "imagenes/elorza/tramo136-137.jpeg", description:"Torre 136-137 En trabajos de Mantenimiento" , week :12 },
+      //{ src: "imagenes/elorza/tramo137-138.jpeg", description:"Torre 137-138 En trabajos de Mantenimiento" , week :12 },
+        { src: "imagenes/elorza/tramo152-153.jpeg", description:"Torre 152-153 En trabajos de Mantenimiento" , week :13 },
+        { src: "imagenes/elorza/tramo154-155.jpeg", description:"Torre 154-155 En trabajos de Mantenimiento" , week :13 },
+        { src: "imagenes/elorza/tramo156-157.jpeg", description:"Torre 156-157 En trabajos de Mantenimiento" , week :13 },
+        { src: "imagenes/elorza/tramo167-168.jpeg", description:"Torre 167-168 En trabajos de Mantenimiento" , week :13 },
+        { src: "imagenes/elorza/tramo169-170.jpeg", description:"Torre 169-170 En trabajos de Mantenimiento" , week :13 },
+        
        
         
     
