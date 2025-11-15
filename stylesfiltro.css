@@ -249,7 +249,7 @@ h1, h2, .progress-details p {
        - Grados: (132 / 212) * 360 = 224.15 grados
     */
     background: conic-gradient(
-        #28a745 0deg 224deg,  /* Verde para el 62% */
+        #28a745 0deg 255deg,  /* Verde para el 62% */
         #e0e0e0 224deg 360deg /* Gris para el resto */
     );
 }
